@@ -11,8 +11,6 @@ LLM with Rust
 
 4. Run the below command to run a simple LLM inference
    
-   cargo run --example phi --release -- \
-  --prompt "Explain how to find the median of an array and write the corresponding python function.\nAnswer:" \
-  --quantized --sample-len 200
+   cargo run --example phi --release -- --prompt "Explain how to find the median of an array and write the corresponding python function.\nAnswer:" --quantized --sample-len 200
 
 5. 
